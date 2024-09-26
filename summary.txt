@@ -1,0 +1,20 @@
+1. Why did you choose the tools, libraries, and language you used for the coding exercise?
+  - I chose Python as the language as it is cross-platform compatible and highly readable when developing any complexity of solutions.
+    Alongside Python, I used Flask as the framework for the app, as it is lightweight and allows easy development of simple RESTful APIs using efficient imports such as Flask, request, and jsonify. 
+    These 3 imports allowed me to easily receive JSON data (via request GET requests), send JSON data (via jsonify for POST responses), and run the app as a web server. 
+    For the scope of this assignment, this language and framework seemed best to efficiently and concisely perform the tasks in a readable manner.
+    
+2. What are the advantages and disadvantages of your solution?
+    Advantages:
+      - My solution successfully validates all incoming requests by ensuring necessary parameters are provided and correctly formatted. 
+        Each request is validated before updating any variables by returning appropriate HTTP status codes and error messages. 
+      - The APIs are built in a stateless nature, allowing them to follow RESTful principles. 
+    Disadvantages:
+      - The main disadvantage of the solution is that it currently handles only a single user's data. This is not viable when scaling to a fully functioning application that supports multiple payers and users.
+        This could be addressed by implementing database storage to successfully handle multiple users' data at once.
+
+3. What has been a favorite school/personal project thus far? What about it that challenged you?
+  - My favorite personal project thus far has been a Spotify automation script. This intuitive script detects advertisements and seamlessly restarts the Spotify application to provide an uninterrupted streaming experience. 
+    The project challenged me to dig into and learn various technical topics, such as managing Windows processes, understanding PIDs (Process IDs), utilizing focus modes, handling interrupts, and making API calls.
+    Additionally, I learned about Auto-Authentication (OAuth) to handle user sessions. The most exciting part of this project was that it solved a real personal problem that could potentially benefit me in the long run.
+    This fueled my curiosity and determination to master the technologies required to successfully achieve my goal.
