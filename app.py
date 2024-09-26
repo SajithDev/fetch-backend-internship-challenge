@@ -3,9 +3,12 @@ from datetime import datetime
 
 app = Flask(__name__)
 
+@app.route('/', methods=['GET'])
+def welcome():
+    return 'Welcome, check the README for more info: https://github.com/SajithDev/fetch-backend-internship-challenge/blob/master/README.md', 200
+
 balance = {} # Dictionary to store the balance of each payer
 transactions = [] # List to store each transaction
-
 
 @app.route('/add', methods=['POST'])
 def add_points():
