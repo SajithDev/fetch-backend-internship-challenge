@@ -92,6 +92,10 @@ def spend_points():
 
 
 @app.route('/balance', methods=['GET'])
-def get_balance():
+def get_points_balance():
     return jsonify(balance), 200
     
+
+
+if __name__ == "__main__":
+    app.run(port=8000)
