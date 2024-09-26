@@ -35,4 +35,5 @@ i) Add points (POST) route: `/add` <br /> ii) Spend Points (POST), route: `/spen
 
 ### You can send and receive JSON requests by downloading the [Postman Agent](https://www.postman.com/downloads/postman-agent/) and using the [Postman web application](https://www.postman.com/).
 Select `Body` and `raw` as seen in the image and send your JSON body.
+
 ![image](https://github.com/user-attachments/assets/56eb4ebc-ee88-41ff-9d8e-4ba053fcb77e)
