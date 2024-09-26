@@ -2,7 +2,9 @@
   - I chose Python as the language as it is cross-platform compatible and highly readable when developing any complexity of solutions.
     Alongside Python, I used Flask as the framework for the app, as it is lightweight and allows easy development of simple RESTful APIs using efficient imports such as Flask, request, and jsonify. 
     These 3 imports allowed me to easily receive JSON data (via request GET requests), send JSON data (via jsonify for POST responses), and run the app as a web server. 
-    For the scope of this assignment, this language and framework seemed best to efficiently and concisely perform the tasks in a readable manner.
+    Additionally, for testing, I utilized tools such as Postman to send JSON body requets and also receive responses from GET requests.
+
+    For the scope of this assignment, this language, framework, and tool seemed best to efficiently and concisely perform the tasks in a readable manner.
     
 2. What are the advantages and disadvantages of your solution?
     Advantages:
