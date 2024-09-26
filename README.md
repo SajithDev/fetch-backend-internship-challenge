@@ -7,15 +7,16 @@
    i) `git clone https://github.com/SajithDev/fetch-backend-internship-challenge.git`<br />
    ii) `cd fetch-backend-internship-challenge`
    
-4) A virtual environment can be used so that the required dependencies do not interfere with your local machine's current packages. In your terminal enter the following:
+3) A virtual environment can be used so that the required dependencies do not interfere with your local machine's current packages. In your terminal enter the following:
    
    i) `python3 -m venv venv` <br />
    ii) Windows: `.\venv\Scripts\activate` or Mac: `source venv/bin/activate` <br />
+         (Note: If you receive an error in Windows when trying to activate the scripts, enter the following in PowerShell: <br /> `Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUse`
    
-5) Install the dependencies
+4) Install the dependencies
    `pip install -r requirements.txt`
    
-6) Run flask application on port 8000 by entering `flask run --port=8000` <br />
+5) Run flask application on port 8000 by entering `flask run --port=8000` <br />
    You should see the following output: <br />
   ```
  * Debug mode: off
@@ -24,6 +25,9 @@
   ```
 6) Go to `http://127.0.0.1:8000` in your browser to access the running server.
 
+7) Finally, once you are done using the app, quit by entering CTRL + C. You can exit the virtual environment by typing `deactivate` in your terminal.
+
+   
 ## Interacting with API endpoints
 There are 3 endpoints in this application: 
 
